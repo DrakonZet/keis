@@ -1,0 +1,116 @@
+header.page-header {
+    background: no-repeat left url(../img/logo.png);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 0 0 .2em;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+.avatar{
+    height: 200px;
+}
+.im{
+    height: 100px;
+    width: 100px;
+}
+.rs{
+    height: 300px;
+    width: 150px;
+    background-color: darkgray;
+    float: left;
+    border-right:  2px white solid;
+    padding-left: 10px;
+    text-align: center;
+}
+.rs1{
+    height: 300px;
+    width: 150px;
+    background-color: darkgray;
+    float: left;
+    border-right:  2px white solid;
+    padding-left: 10px;
+    text-align: center;
+}
+.rs2{
+    height: 300px;
+    width: 150px;
+    background-color: darkgray;
+    padding-left: 10px;
+    float: left;
+    border-right:  2px white solid;
+    text-align: center;
+}
+.rs3{
+    height: 300px;
+    width: 150px;
+    background-color: darkgray;
+    padding-left: 10px;
+    float: left;
+    border-right:  2px white solid;
+    text-align: center;
+}
+.rs4{
+    height: 300px;
+    width: 150px;
+    background-color: darkgray;
+    padding-left: 10px;
+    float: left;
+    text-align: center;
+}
+.rosp{
+    width: 830px;
+    height: 300px;
+    border: 2px white solid;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: darkgray;
+}
+.blok{
+    width: 400px;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}

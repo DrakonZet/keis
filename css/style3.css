@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+}
+header.page-header {
+    background: no-repeat left url(../img/logo.png);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 0 0 .2em;
+    justify-content: center;
+    background-color: darkgrey;
+}header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+form{
+    width: 350px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    margin-bottom: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #000080;
+    outline: none; 
+}
+
+button{
+    background-color: #fff;
+    padding: 12px 28px;
+    border-radius: 35%;
+    border: 2px solid darkgray;
+    width: 100%;
+}
+body{
+    background-color: darkgray;
+}
